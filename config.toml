@@ -1,8 +1,9 @@
-theme = "base16_transparent"
+theme = "autumn_night"
 
 [editor]
 line-number = "relative"
 mouse = false
+true-color = true
 
 [editor.cursor-shape]
 insert = "bar"
