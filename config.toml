@@ -31,4 +31,3 @@ C-y = [
 
 [keys.normal."space"]
 j = { k = ":w!", q = ":q!" }
-l = { g = ":sh lazygit"}
