@@ -2,3 +2,10 @@
 name = "python"
 language-servers = [ "basedpyright" ]
 formatter = { command = "black" , args = ["-"] }
+
+[[language]]
+name = "java"
+language-servers = [ "jdtls" ]
+indent = { tab-width = 4, unit = " " }
+formatter = { command = "google-java-format", args = ["-"] }
+auto-format = true
